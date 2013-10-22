@@ -32,7 +32,7 @@ function load_page(page){
     var appState = function(state,msg){
     	if(state==undefined){state="home"};
     	logger(state);
-		load_page(state);
+		// load_page(state);
     };
 
 /* --------------- Sammy routes --------------- */
