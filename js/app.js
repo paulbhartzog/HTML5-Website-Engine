@@ -18,7 +18,7 @@ function show_loaded_page(){
 }
 function load_page(page){
     $('#main').fadeOut('fast', function() {
-        $('#main').load( page + '.php', {limit: 25},  function(responseText, textStatus, req) {
+        $('#main').load( page + '.htm', {limit: 25},  function(responseText, textStatus, req) {
 	        if (textStatus == "error") {
 	          logger('loading error page');
 	          load_page('error');
